@@ -1,4 +1,4 @@
-name = Simple Bootstrap Blog Theme
+name = Simple Bootstrap Blog
 description = A Bootstrap Sub-theme. BY Raysmond.
 core = 7.x
 base theme = bootstrap
