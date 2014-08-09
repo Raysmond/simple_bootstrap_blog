@@ -1,0 +1,337 @@
+/*@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);*/
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+body{
+    background: #efefef;
+    font-family:  'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+    line-height: 1.7;
+    color: #333333;
+    /*-webkit-font-smoothing: antialiased;*/
+}
+
+body.navbar-is-fixed-top {
+    padding-top: 80px!important;
+}
+body.admin-menu {
+    padding-top: 94px!important;
+}
+.main-container{
+    padding: 15px;
+    width: 980px;
+    background: #fff;
+}
+#navbar .container{
+    width: 980px;
+}
+.main-container .col-sm-8{
+    /*border-right: 1px #eee solid;*/
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+
+aside.col-sm-4{
+    display: none;
+    width: 0;
+    padding-right: 40px;
+    padding-top: 30px;
+}
+
+.page-header{
+    border: none;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+a{
+    -webkit-transition: background-color 0.2s linear, color 0.2s linear;
+    -moz-transition: background-color 0.2s linear, color 0.2s linear;
+    -o-transition: background-color 0.2s linear, color 0.2s linear;
+    transition: background-color 0.2s linear, color 0.2s linear;
+    text-decoration: none;
+    color: #1abc9c;
+}
+a:hover,a:focus{
+    text-decoration: none;
+    color: #333;
+}
+ul li a{
+    line-height: 1.8;
+    font-size: 15px;
+}
+ul#admin-menu-menu li a, ul#admin-menu-account li a{
+    font-size: 12px;
+    line-height: 1.0;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    /*font-family: "微软雅黑", Helvetica,Arial, sans-serif;*/
+    font-family: 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+    font-weight: 200;
+    color: #000;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #333;
+    line-height: 1.4;
+}
+h2 a:hover, h2 a:focus{
+    color: #1abc9c;
+}
+h1{
+    font-size: 32px;
+    line-height: 1.3;
+}
+h2,.h2{
+    font-size: 32px;
+}
+ul,ol{
+    padding-left: 25px;
+}
+pre{
+    font-size: 11px;
+}
+/* responsive */
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* navbar top */
+.navbar-fixed-top{
+    min-height: 30px;
+    /*background: #282828;*/
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+}
+.navbar-fixed-top .navbar-nav>li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar-fixed-top .navbar-nav>li>a {
+    color: #333;
+    background: none;
+    font-size: 13px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navbar-fixed-top .navbar-nav>.active>a, .navbar-fixed-top .navbar-nav>.active>a:hover,.navbar-fixed-top .navbar-nav>.active>a:focus{
+    background: none;
+    border-bottom: 4px #1abc9c solid;
+    color: #1abc9c;
+}
+.navbar-fixed-top .navbar-nav>li>a:hover,.navbar-fixed-top .navbar-nav>.active>a:hover{
+    text-shadow: 0 0 8px rgba(255,255,255,.75);
+    color: #1abc9c;
+}
+.navbar-fixed-top .container ,.navbar-fixed-top .navbar-collapse{
+    padding-left: 0;
+}
+
+.navbar-nav{
+    float: right;
+}
+.navbar>.container .navbar-brand{
+    color: #000;
+    padding-left: 50px;
+}
+
+/* Bottom */
+#bottom{
+    background: #282828;
+    text-align: center;
+}
+#bottom .row{
+    padding: 10px 15px;
+}
+#bottom ul.menu>li{
+    float: left;
+}
+#bottom ul.menu>li>a {
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
+    color: #aaa;
+    background: none;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+footer, .footer{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 15px;
+    margin-top: 25px;
+    color:#676767;
+}
+
+/* Sidebar */
+.region-sidebar-second h2.block-title{
+    /*background: #eee;*/
+    /*font-size: 16px;*/
+    /*font-weight: bold;*/
+    /*padding: 10px 10px;*/
+    /*color: #666;*/
+
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 10px;
+    padding-left: 0;
+    border-bottom: 1px #eee solid;
+}
+.region-sidebar-second .nav>li>a{
+    border-bottom: 1px #eee dashed;
+}
+
+.views-bootstrap-grid-plugin-style .row-fluid{
+    clear: both;
+}
+.views-bootstrap-grid-plugin-style .row-fluid .span6{
+    width: 50%;
+    float: left;
+}
+.views-bootstrap-grid-plugin-style .row-fluid .span6 .views-field{
+    padding: 5px;
+}
+.views-bootstrap-grid-plugin-style .row-fluid .span6 img{
+    width: 300px;
+    height: auto;
+}
+
+/* Node */
+.node .content{
+    position: relative;
+}
+.submitted{
+    font-size: 14px;
+    color: #888;
+    font-style: normal;
+    margin-top: 20px;
+    padding-bottom: 25px;
+    border-bottom: 3px double #eee;
+}
+.node-teaser{
+    border-bottom: 1px #eee dashed;
+    padding-bottom: 50px;
+    /*padding-top: 30px;*/
+}
+.node-teaser .content .form-type-item{
+    display: none;
+}
+.node-teaser .field-name-field-image{
+    padding-bottom: 10px;
+}
+.node-teaser .links{
+    float: right;
+    padding-top: 10px;
+}
+.node-teaser .links .comment_forbidden,.node-teaser .links .comment-add{
+    display: none;
+}
+.node-teaser .field-name-field-article-category {
+    float: left;
+    margin-top: 10px;
+}
+.node .field-type-taxonomy-term-reference .field-item{
+    float: left;
+    margin-right: 10px;
+}
+.page-node .node-project .field-name-field-project-image{
+    padding-bottom: 15px;
+}
+.node .field-name-body{
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.node .field-name-body a{
+    border-bottom: 1px #1abc9c solid;
+}
+.node .field-name-body a:hover, .node .field-name-body a:focus{
+    border-bottom-color: #ccc;
+}
+.node .field-label-inline{
+    margin: 10px 0;
+}
+.node .view-jiathis-sharing{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px #eee solid;
+    padding-top: 20px;
+}
+
+.view-projects .node-teaser .content{
+    min-height: 140px;
+}
+.view-projects .node-teaser .field{
+    margin-left: 215px;
+}
+.view-projects .node-teaser .field-name-field-project-image{
+    position: absolute;
+    margin-left: 0;
+    left: 0;
+}
+.view-projects .node-teaser .field-name-field-project-image img{
+    width: 200px;
+    height: auto;
+}
+.front .view-blog .more-link{
+    float: right;
+    padding-top: 10px;
+}
+
+.block-similarterms h2{
+    margin-bottom: 20px;
+}
+
+/* Syntaxhighlighter */
+.syntaxhighlighter{
+    border: 1px #eee solid;
+    -webkit-box-shadow: rgba(0,0,0,0.06) 0 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.06) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.06) 0 0 10px;
+    padding: 10px 0;
+
+}
+.syntaxhighlighter .toolbar{
+    display: none;
+}
+.syntaxhighlighter a, .syntaxhighlighter div, .syntaxhighlighter code, .syntaxhighlighter table, .syntaxhighlighter table td, .syntaxhighlighter table tr, .syntaxhighlighter table tbody, .syntaxhighlighter table thead, .syntaxhighlighter table caption, .syntaxhighlighter textarea{
+    font-size: 12px !important;
+}
+
+/* control */
+a#controlbtn{
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 60px;
+    line-height: 60px;
+    margin-bottom: 60px;
+    }
+
+a#controlbtn.open {
+    background: transparent url("../images/toggle_minus.png") no-repeat left center;
+    background-size: 41px auto;
+    content:""; 
+    height: 60px;
+    }
+
+a#controlbtn.close {
+    background: transparent url("../images/toggle_plus.png") no-repeat left center;
+    content:"";
+    background-size: 41px auto; 
+    height: 60px;
+    }
+
+div#control {
+    margin-left: -60px; 
+    width: 70px; 
+    float: left; 
+    margin-top: -15px; 
+    right: 30px;
+    position: fixed; 
+    }
+
+div#control2 {
+    display:none;
+    }
